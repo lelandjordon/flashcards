@@ -1,1 +1,18 @@
 Pseudocode!
+
+Lay out the page with a top card and start options.
+Player: Choose level
+Present full card
+Click Next button to continue to next card
+Reach the end of the stack
+  Choose whether to start again or continue to the next level
+
+Create an object containing card keys and values
+Set text in each card
+
+
+
+Ability to loop through an array;
+if-else (without looking them up)
+accessing info out of an object (properties, values, etc) without looking it up
+Revisit TTMAR
