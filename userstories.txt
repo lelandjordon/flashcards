@@ -1,0 +1,25 @@
+User stories for each level of ambition.
+
+Bronze:
+Want user to learn how to pronounce Hangul by flipping through flashcards.
+Want to click once to see the entire card.
+Want to go through the cards in an ordered progression.
+
+Silver:
+Want to reveal only the top (Hangul) half of the card with the first click, then
+reveal the pronunciation key with the second click.
+Want to sort cards randomly for a crash course in learning.
+
+
+Gold:
+Want to award milestones for boasting via social media.
+Want to have a timer to automatically reveal the lower half and switch to the next card.
+Want to allow the program to set up a quiz within a given skill level.
+Want to sort cards randomly within levels of complexity to make learning more progressive.
+Want to have a multiple choice quiz for proper scoring.
+Want to have a button to let the user say, "Yes, I understood this card," or "No,
+I forgot it," so the program can display missed cards more frequently later.
+
+Platinum:
+Want to click a button to hear an audio clip of the given character.
+Want to set up a server to allow the website owner to update or expand the card collection.
