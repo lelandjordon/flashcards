@@ -11,6 +11,21 @@ Create a card object containing two card keys: Hangul and phonetic
 Create an collection of cards containing matching Hangul and phonetic answers
 
 
+Card as an object:
+card1 = {
+  hangul: "구",
+  phonetic: "goo"
+};
+
+Card as a text element in html:
+function displayCard
+
+Click on a card to flip it:
+function clickCard
+
+card1.english
+
+
 Ability to loop through an array;
 if-else (without looking them up)
 accessing info out of an object (properties, values, etc) without looking it up

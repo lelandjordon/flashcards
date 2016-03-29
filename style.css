@@ -1,9 +1,24 @@
-#card {
-
-  position: fixed;
-}
-#words {
-  font-size: 8em;
+body {
   text-align: center;
   font-family: sans-serif;
+  color: #333;
+  background-color: #bdd;
+}
+
+#card {
+
+  /*position: fixed;*/
+}
+#words {
+  text-align: center;
 };
+.flash_card {
+  font-size: 8em;
+}
+
+.flashCard {
+  font-size: 8em;
+}
+h2 {
+  font-size: 2em;
+}
