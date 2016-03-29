@@ -7,7 +7,6 @@ body {
 
 #card {
 
-  /*position: fixed;*/
 }
 #words {
   text-align: center;
@@ -18,6 +17,7 @@ body {
 
 .flashCard {
   font-size: 8em;
+  border: 2px solid #565;
 }
 h2 {
   font-size: 2em;
