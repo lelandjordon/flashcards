@@ -3,6 +3,7 @@
   position: fixed;
 }
 #words {
-  font-size: 9em;
+  font-size: 8em;
   text-align: center;
+  font-family: sans-serif;
 };
