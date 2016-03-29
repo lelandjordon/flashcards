@@ -1,4 +1,8 @@
 #card {
-  
+
   position: fixed;
 }
+#words {
+  font-size: 9em;
+  text-align: center;
+};
