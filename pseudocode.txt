@@ -14,8 +14,26 @@ Create an collection of cards containing matching Hangul and phonetic answers
 Card as an object:
 card1 = {
   hangul: "구",
-  phonetic: "goo"
+  english: "goo"
 };
+
+Create a card collection -- an array of card objects?
+
+deck1 = []
+function deckAdd(h, e){
+  var card = {hangul: h, english: e}
+  deck1.push(card);
+}
+deckAdd("다", "da");
+
+clickCounter = 0;
+var clickCard2 = document.querySelector(".cardBottom")
+  clickCard2.addEventListener("click", function(){
+    var elTop = document.querySelector(".cardTop")
+    innerHTML = card[clickCounter].hangul;
+    var elBottom = document.querySelector(".cardBottom")
+    el.innerHTML = card[clickCounter].english;
+  })
 
 Card as a text element in html:
 function displayCard
@@ -25,6 +43,8 @@ function clickCard
 
 card1.english
 
+Randomizer:
+var d = parseInt(Math.random() * 10);    <-- Gives a whole number between 0 and 9.
 
 Ability to loop through an array;
 if-else (without looking them up)
