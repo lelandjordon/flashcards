@@ -1,4 +1,6 @@
 // Build a deck of flash cards ----
+
+//Simple deck
 deck1 = []
 function deckAdd(h, e){
   var card = {hangul: h, english: e}
@@ -17,6 +19,7 @@ deckAdd("미", "mi");
 deckAdd("매", "mae");
 console.log(deck1);
 
+// Medium deck2
 deck2 = []
 function deck2Add(h, e){
   var card = {hangul: h, english: e}
@@ -27,3 +30,12 @@ deck2Add("까", "ka");
 deck2Add("더", "deoh");
 deck2Add("떠", "teoh");
 console.log(deck2);
+
+// Complicated deck3
+deck3 =[]
+function deck3Add(h, e){
+  var card = {hangul: h, english: e}
+  deck3.push(card);
+}
+deck3Add("김", "kim");
+deck3Add("꽝", "kwahng");
