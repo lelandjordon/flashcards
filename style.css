@@ -10,7 +10,7 @@ body {
 }
 #words {
   text-align: center;
-  color: #dde
+  /*color: #dde*/
 };
 
 .flash_card {
@@ -27,6 +27,7 @@ body {
 
 .flashCard {
   font-size: 10em;
+  font-family: serif;
 }
 
 .cardBottom {
