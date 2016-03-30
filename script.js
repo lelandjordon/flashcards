@@ -57,39 +57,40 @@ displayCard2 = function(){
 clickCounter = 0;
 var clickCard2 = document.querySelector(".cardBottom")
   clickCard2.addEventListener("click", function(){
-    if (clickCounter >= deck2.length){
+    if (clickCounter >= deck1.length){
       clickCounter = 0;
     };
       var elTop = document.querySelector(".flashCard")
-      elTop.innerHTML = deck2[clickCounter].hangul;
+      elTop.innerHTML = deck1[clickCounter].hangul;
       var elBottom = document.querySelector(".cardBottom")
-      elBottom.innerHTML = deck2[clickCounter].english;
+      elBottom.innerHTML = deck1[clickCounter].english;
       clickCounter++
 
   })
 
 var clickNext = document.querySelector(".nextButton")
   clickNext.addEventListener("click", function(){
-    if (clickCounter >= deck2.length){
+    if (clickCounter >= deck1.length){
       clickCounter = 0;
     };
       var elTop = document.querySelector(".flashCard")
-      elTop.innerHTML = deck2[clickCounter].hangul;
+      elTop.innerHTML = deck1[clickCounter].hangul;
       var elBottom = document.querySelector(".cardBottom")
-      elBottom.innerHTML = deck2[clickCounter].english;
+      elBottom.innerHTML = deck1[clickCounter].english;
       clickCounter++
 
   })
 
   var clickBack = document.querySelector(".backButton")
     clickBack.addEventListener("click", function(){
-      if (clickCounter = 0){
-        clickCounter = deck2.length;
-      };
+      clickCounter--
+
         var elTop = document.querySelector(".flashCard")
-        elTop.innerHTML = deck2[clickCounter].hangul;
+        elTop.innerHTML = deck1[clickCounter].hangul;
         var elBottom = document.querySelector(".cardBottom")
-        elBottom.innerHTML = deck2[clickCounter].english;
-        clickCounter--
+        elBottom.innerHTML = deck1[clickCounter].english;
+        if (clickCounter < 1){
+          clickCounter = deck1.length;
+        };
 
     })
