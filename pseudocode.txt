@@ -50,11 +50,32 @@ var d = parseInt(Math.random() * 10);    <-- Gives a whole number between 0 and 
 
 Mousein and mouseout for showing content??
 
+*$*$* Selecting deck1, deck2, or deck3:  ********* $$$ Silver  \/ \/ \/
+
+Use .this.?
+Basic card-advance function:
 
 
+clickCounter = 0;
+var clickNext = document.querySelector(".nextButton")
+  clickNext.addEventListener("click", function(){
+    if (clickCounter >= deck1.length){
+      clickCounter = 0;
+    };
+      var elTop = document.querySelector(".flashCard")
+      elTop.innerHTML = deck1[clickCounter].hangul;
+      var elBottom = document.querySelector(".cardBottom")
+      elBottom.innerHTML = deck1[clickCounter].english;
+      clickCounter++
+
+  })
+or use deckX in place of deck1 after assigning (in this case) deck1 to deckX?
+function deckChoice = document.QuerySelector(".chooseDeck"){
+something something something something
+}
 
 
-
+*************************************** $$$$$$$$$$ Silver /\ /\ /\ /\
 
 Ability to loop through an array;
 if-else (without looking them up)
