@@ -60,10 +60,14 @@ var clickCard2 = document.querySelector(".cardBottom")
     if (clickCounter >= deck1.length){
       clickCounter = 0;
     };
-      var elTop = document.querySelector(".flashCard")
-      elTop.innerHTML = deck1[clickCounter].hangul;
-      var elBottom = document.querySelector(".cardBottom")
-      elBottom.innerHTML = deck1[clickCounter].english;
+      if (clickCounter % 2 == 0){
+        var elTop = document.querySelector(".flashCard")
+        elTop.innerHTML = deck1[parseInt(clickCounter/2)].hangul;
+      }
+      if (clickCounter % 2 == 1){
+        var elBottom = document.querySelector(".cardBottom")
+        elBottom.innerHTML = deck1[parseInt(clickCounter/2)].english;
+      }
       clickCounter++
 
   })

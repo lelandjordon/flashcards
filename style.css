@@ -17,6 +17,12 @@ body {
   font-size: 8em;
 }
 
+header nav ul li {
+  display: inline-block;
+  padding: 10px 10px;
+  background-color: #c2eded;
+}
+
 .chooseDeck1, .chooseDeck2, .chooseDeck3 {
   background-color: #c2eded;
   width: 150px;
