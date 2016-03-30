@@ -10,11 +10,13 @@ function deckAdd(h, e){
   var card = {hangul: h, english: e}
   deck1.push(card);
 }
+deckAdd("ㅏ", "ah");
+deckAdd("ㅗ", "oh");
 deckAdd("다", "da");
-deckAdd("두", "doo");
+deckAdd("도", "doh");
 deckAdd("바", "ba");
 deckAdd("부", "boo");
-deckAdd("도", "doh");
+deckAdd("두", "doo");
 deckAdd("고", "goh");
 deckAdd("마", "ma");
 deckAdd("미", "mi");
