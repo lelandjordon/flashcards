@@ -17,9 +17,14 @@ body {
   font-size: 8em;
 }
 
+.chooseDeck1, .chooseDeck2, .chooseDeck3 {
+  background-color: #c2eded;
+  width: 150px;
+}
+
 .card {
   margin: 0 auto;
-  border: 1px solid #00f;
+  border: 1px solid #d8edc2;
   height: 400px;
   width: 600px;
   background-color: #e5facf;
@@ -36,4 +41,18 @@ body {
 }
 h2 {
   font-size: 2em;
+}
+
+.nextButton, .backButton {
+  text-align: center;
+  width: 100px;
+}
+
+.nextButton {
+  background-color: #d8edc2;
+  float: right;
+}
+
+.backButton {
+  background-color: #edc2c2;
 }
