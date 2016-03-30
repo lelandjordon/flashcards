@@ -14,6 +14,11 @@ deckAdd("다", "da");
 deckAdd("두", "doo");
 deckAdd("바", "ba");
 deckAdd("부", "boo");
+deckAdd("도", "doh");
+deckAdd("고", "goh");
+deckAdd("마", "ma");
+deckAdd("미", "mi");
+deckAdd("매", "mae");
 console.log(deck1);
 
 titleCard = function(){
@@ -41,18 +46,20 @@ displayCard2 = function(){
 // displayCard2();
 
 
-var clickCard2 = document.querySelector(".cardBottom")
-  clickCard2.addEventListener("click", function(){
-    var el = document.querySelector(".cardBottom")
-    el.innerHTML = (card1.english);
-  })
+// var clickCard2 = document.querySelector(".cardBottom")
+//   clickCard2.addEventListener("click", function(){
+//     var el = document.querySelector(".cardBottom")
+//     el.innerHTML = (card1.english);
+//   })
 
 clickCounter = 0;
 var clickCard2 = document.querySelector(".cardBottom")
   clickCard2.addEventListener("click", function(){
-    var elTop = document.querySelector(".flashCard")
-    elTop.innerHTML = deck1[clickCounter].hangul;
-    var elBottom = document.querySelector(".cardBottom")
-    elBottom.innerHTML = deck1[clickCounter].english;
-    clickCounter++
+    //while (clickCounter < deck1.length){
+      var elTop = document.querySelector(".flashCard")
+      elTop.innerHTML = deck1[clickCounter].hangul;
+      var elBottom = document.querySelector(".cardBottom")
+      elBottom.innerHTML = deck1[clickCounter].english;
+      clickCounter++
+    //}
   })
