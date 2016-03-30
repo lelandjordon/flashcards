@@ -48,6 +48,14 @@ card1.english
 Randomizer:
 var d = parseInt(Math.random() * 10);    <-- Gives a whole number between 0 and 9.
 
+Mousein and mouseout for showing content??
+
+
+
+
+
+
+
 Ability to loop through an array;
 if-else (without looking them up)
 accessing info out of an object (properties, values, etc) without looking it up

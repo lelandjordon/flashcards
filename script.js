@@ -57,11 +57,14 @@ displayCard2 = function(){
 clickCounter = 0;
 var clickCard2 = document.querySelector(".cardBottom")
   clickCard2.addEventListener("click", function(){
-    //while (clickCounter < deck1.length){
+    // if the click counter is greater than the length of the array, reset clickounter to 0
+    if (clickCounter >= deck2.length){
+      clickCounter = 0;
+    };
       var elTop = document.querySelector(".flashCard")
-      elTop.innerHTML = deck1[clickCounter].hangul;
+      elTop.innerHTML = deck2[clickCounter].hangul;
       var elBottom = document.querySelector(".cardBottom")
-      elBottom.innerHTML = deck1[clickCounter].english;
+      elBottom.innerHTML = deck2[clickCounter].english;
       clickCounter++
-    //}
+
   })
