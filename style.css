@@ -10,6 +10,7 @@ body {
 }
 #words {
   text-align: center;
+  color: #dde
 };
 
 .flash_card {
@@ -19,17 +20,18 @@ body {
 .card {
   margin: 0 auto;
   border: 1px solid #00f;
-  height: 300px;
-  width: 500px;
+  height: 400px;
+  width: 600px;
   background-color: #ccc;
 }
 
 .flashCard {
-  font-size: 8em;
+  font-size: 10em;
 }
 
 .cardBottom {
   font-size: 2em;
+  background-color: #bcbbbb
 }
 h2 {
   font-size: 2em;
