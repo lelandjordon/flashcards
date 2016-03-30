@@ -7,10 +7,10 @@ Want to go through the cards in an ordered progression.
 
 Silver:
 Want to reveal only the top (Hangul) half of the card with the first click, then
-reveal the pronunciation key with the second click.
+  reveal the pronunciation key with the second click.
 Want to shuffle all cards randomly for a crash course in learning.
 Want to be able to select different levels of complexity, then present the level's cards
-in a prescribed order.
+  in a prescribed order.
 
 
 Gold:
@@ -20,7 +20,7 @@ Want to sort cards randomly within levels of complexity to make learning more pr
 Want to allow the program to set up a quiz within a given complexity level.
 Want to have a multiple choice quiz for proper scoring.
 Want to have a button to let the user say, "Yes, I understood this card," or "No,
-I forgot it," so the program can display missed cards more frequently later.
+  I forgot it," so the program can display missed cards more frequently later.
 
 Platinum:
 Want to click a button to hear an audio clip of the given character.

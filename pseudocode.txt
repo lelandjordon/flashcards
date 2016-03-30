@@ -17,6 +17,8 @@ card1 = {
   english: "goo"
 };
 
+ㅂㅈㄷㄱ쇼ㅕㅑㅐㅔㅣㅏㅓㅗㅎㄹㄹㄴㄴㅁㅋㅌㅊㅊ퓨ㅜㅜ 구 리
+
 Create a card collection -- an array of card objects?
 
 deck1 = []
