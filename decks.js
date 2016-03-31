@@ -16,8 +16,8 @@ deckAdd("두", "doo");
 deckAdd("고", "goh");
 deckAdd("마", "ma");
 deckAdd("미", "mi");
-deckAdd("매", "mae");
-deckAdd("해", "hae");
+deckAdd("매", "may");
+deckAdd("해", "hay");
 console.log(deck1.length);
 
 // Medium deck2

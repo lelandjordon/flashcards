@@ -10,7 +10,7 @@ Reach the end of the stack
 Create a card object containing two card keys: Hangul and phonetic
 Create an collection of cards containing matching Hangul and phonetic answers
 
-deck1[ㄴ,n]
+deck1[ㄴ,n] ㅎㄹㄹ호ㅗㅗㅗ이치치  니스래헤델   ㅓㅜ허ㅏㄹㅇㅎㄹㅇ노ㅓㅓ뎌터츠  ㄹ오차느,
 
 Card as an object:
 card1 = {

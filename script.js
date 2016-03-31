@@ -12,18 +12,30 @@ var chooseSimple = document.querySelector(".simple")
   chooseSimple.addEventListener("click", function(){
     console.log("click simple");
     deckX = deck1;
+    var elTop = document.querySelector(".flashCard")
+    elTop.innerHTML = deckX[0].hangul;
+    var elBottom = document.querySelector(".cardBottom")
+    elBottom.innerHTML = deckX[0].english;
     clickCounter = 0;
   })
 var chooseIntermediate = document.querySelector(".intermediate")
   chooseIntermediate.addEventListener("click", function(){
     console.log("click intermediate");
     deckX = deck2;
+    var elTop = document.querySelector(".flashCard")
+    elTop.innerHTML = deckX[0].hangul;
+    var elBottom = document.querySelector(".cardBottom")
+    elBottom.innerHTML = deckX[0].english;
     clickCounter = 0;
   })
 var chooseComplex = document.querySelector(".complex")
   chooseComplex.addEventListener("click", function(){
     console.log("click complex");
     deckX = deck3;
+    var elTop = document.querySelector(".flashCard")
+    elTop.innerHTML = deckX[0].hangul;
+    var elBottom = document.querySelector(".cardBottom")
+    elBottom.innerHTML = deckX[0].english;
     clickCounter = 0;
   })
 
