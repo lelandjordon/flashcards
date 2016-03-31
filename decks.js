@@ -30,6 +30,9 @@ deck2Add("가", "ga");
 deck2Add("까", "ka");
 deck2Add("더", "deoh");
 deck2Add("떠", "teoh");
+deck2Add("바", "bah");
+deck2Add("뻐", "poh");
+
 console.log(deck2);
 
 // Complicated deck3
@@ -40,3 +43,4 @@ function deck3Add(h, e){
 }
 deck3Add("김", "kim");
 deck3Add("꽝", "kwahng");
+deck3Add("형", "hyeong");

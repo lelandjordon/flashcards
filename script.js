@@ -17,6 +17,11 @@ var chooseIntermediate = document.querySelector(".intermediate")
     console.log("click intermediate");
     deckX = deck2;
   })
+var chooseComplex = document.querySelector(".complex")
+  chooseComplex.addEventListener("click", function(){
+    console.log("click complex");
+    deckX = deck3;
+  })
 
 // First shot at changing the displayed text when clicked \/ \/ \/ \/
 titleCard = function(){
