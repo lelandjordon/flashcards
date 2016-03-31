@@ -24,23 +24,24 @@ var chooseComplex = document.querySelector(".complex")
   })
 
 // First shot at changing the displayed text when clicked \/ \/ \/ \/
-titleCard = function(){
-  var el = document.querySelector(".flash_card")
-  el.innerHTML = ("한글")
-}
-titleCard();
+// titleCard = function(){
+//   var el = document.querySelector(".flash_card")
+//   el.innerHTML = ("한글")
+// }
+// titleCard();
 
-displayCard = function(){
-  var el = document.querySelector(".flash_card")
-  el.innerHTML = (card1.hangul);
-}
-// displayCard();
-
-var clickCard = document.querySelector(".flash_card")
-  clickCard.addEventListener("click", function(){
-    var el = document.querySelector(".flash_card")
-    el.innerHTML = (card1.english);
-  })
+// First time selecting a card from card1{object}
+// displayCard = function(){
+//   var el = document.querySelector(".flash_card")
+//   el.innerHTML = (card1.hangul);
+// }
+// // displayCard();
+// ---------------------
+// var clickCard = document.querySelector(".flash_card")
+//   clickCard.addEventListener("click", function(){
+//     var el = document.querySelector(".flash_card")
+//     el.innerHTML = (card1.english);
+//   })
 // /\ /\ /\ /\ /\ First shot at changing the displayed text when clicked /\ /\
 
 
