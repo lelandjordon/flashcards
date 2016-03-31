@@ -47,7 +47,9 @@ var clickCard2 = document.querySelector(".cardBottom")
     };
       if (clickCounter % 2 == 0){
         var elTop = document.querySelector(".flashCard")
+        // var elBottom = document.querySelector(".cardBottom")
         elTop.innerHTML = deck1[parseInt(clickCounter/2)].hangul;
+        // elBottom.style.display = "hidden";
       }
       if (clickCounter % 2 == 1){
         var elBottom = document.querySelector(".cardBottom")
