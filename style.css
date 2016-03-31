@@ -22,6 +22,7 @@ nav ul li {
   padding: 10px 10px;
   background-color: #c2eded;
   text-align: center;
+  cursor: pointer;
 }
 
 header {
@@ -48,6 +49,7 @@ header {
 
 .cardBottom {
   font-size: 2em;
+  cursor: pointer;
   background-color: #bcbbbb
 }
 h2 {
