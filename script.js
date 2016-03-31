@@ -49,10 +49,10 @@ var chooseComplex = document.querySelector(".complex")
 // /\ /\ /\ /\ /\ First shot at changing the displayed text when clicked /\ /\
 
 
-displayCard2 = function(){
-  var el = document.querySelector(".flashCard")
-  el.innerHTML = (card1.hangul);
-}
+// displayCard2 = function(){
+//   var el = document.querySelector(".flashCard")
+//   el.innerHTML = (card1.hangul);
+// }
 // displayCard2();
 
 
