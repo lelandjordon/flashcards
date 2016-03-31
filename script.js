@@ -6,21 +6,25 @@ console.log(card1);
 
 // Chooses between simple, intermediate, and complex flash card decks.
 var deckX;
+var clickCounter = 0;
 
 var chooseSimple = document.querySelector(".simple")
   chooseSimple.addEventListener("click", function(){
     console.log("click simple");
     deckX = deck1;
+    clickCounter = 0;
   })
 var chooseIntermediate = document.querySelector(".intermediate")
   chooseIntermediate.addEventListener("click", function(){
     console.log("click intermediate");
     deckX = deck2;
+    clickCounter = 0;
   })
 var chooseComplex = document.querySelector(".complex")
   chooseComplex.addEventListener("click", function(){
     console.log("click complex");
     deckX = deck3;
+    clickCounter = 0;
   })
 
 // First shot at changing the displayed text when clicked \/ \/ \/ \/
