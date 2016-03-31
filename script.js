@@ -4,25 +4,8 @@ card1 = {
 };
 console.log(card1);
 
-// Build a deck of flash cards ----
-// deck1 = []
-// function deckAdd(h, e){
-//   var card = {hangul: h, english: e}
-//   deck1.push(card);
-// }
-// deckAdd("ㅏ", "ah");
-// deckAdd("ㅗ", "oh");
-// deckAdd("다", "da");
-// deckAdd("도", "doh");
-// deckAdd("바", "ba");
-// deckAdd("부", "boo");
-// deckAdd("두", "doo");
-// deckAdd("고", "goh");
-// deckAdd("마", "ma");
-// deckAdd("미", "mi");
-// deckAdd("매", "mae");
-// console.log(deck1);
 
+// First shot at changing the displayed text when clicked \/ \/ \/ \/
 titleCard = function(){
   var el = document.querySelector(".flash_card")
   el.innerHTML = ("한글")
@@ -40,6 +23,8 @@ var clickCard = document.querySelector(".flash_card")
     var el = document.querySelector(".flash_card")
     el.innerHTML = (card1.english);
   })
+// /\ /\ /\ /\ /\ First shot at changing the displayed text when clicked /\ /\
+
 
 displayCard2 = function(){
   var el = document.querySelector(".flashCard")

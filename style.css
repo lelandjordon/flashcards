@@ -17,10 +17,15 @@ body {
   font-size: 8em;
 }
 
-header nav ul li {
+nav ul li {
   display: inline-block;
   padding: 10px 10px;
   background-color: #c2eded;
+  text-align: center;
+}
+
+header {
+  align-content: center;
 }
 
 .chooseDeck1, .chooseDeck2, .chooseDeck3 {
