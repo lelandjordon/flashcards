@@ -4,6 +4,19 @@ card1 = {
 };
 console.log(card1);
 
+// Chooses between simple, intermediate, and complex flash card decks.
+var deckX;
+
+var chooseSimple = document.querySelector(".simple")
+  chooseSimple.addEventListener("click", function(){
+    console.log("click simple");
+    deckX = deck1;
+  })
+var chooseIntermediate = document.querySelector(".intermediate")
+  chooseIntermediate.addEventListener("click", function(){
+    console.log("click intermediate");
+    deckX = deck2;
+  })
 
 // First shot at changing the displayed text when clicked \/ \/ \/ \/
 titleCard = function(){
@@ -42,18 +55,18 @@ displayCard2 = function(){
 clickCounter = 0;
 var clickCard2 = document.querySelector(".cardBottom")
   clickCard2.addEventListener("click", function(){
-    if (clickCounter >= (deck1.length * 2)){
+    if (clickCounter >= (deckX.length * 2)){
       clickCounter = 0;
     };
       if (clickCounter % 2 == 0){
         var elTop = document.querySelector(".flashCard")
         // var elBottom = document.querySelector(".cardBottom")
-        elTop.innerHTML = deck1[parseInt(clickCounter/2)].hangul;
+        elTop.innerHTML = deckX[parseInt(clickCounter/2)].hangul;
         // elBottom.style.display = "hidden";
       }
       if (clickCounter % 2 == 1){
         var elBottom = document.querySelector(".cardBottom")
-        elBottom.innerHTML = deck1[parseInt(clickCounter/2)].english;
+        elBottom.innerHTML = deckX[parseInt(clickCounter/2)].english;
       }
       clickCounter++
 
@@ -61,13 +74,13 @@ var clickCard2 = document.querySelector(".cardBottom")
 
 var clickNext = document.querySelector(".nextButton")
   clickNext.addEventListener("click", function(){
-    if (clickCounter >= deck1.length){
+    if (clickCounter >= deckX.length){
       clickCounter = 0;
     };
       var elTop = document.querySelector(".flashCard")
-      elTop.innerHTML = deck1[clickCounter].hangul;
+      elTop.innerHTML = deckX[clickCounter].hangul;
       var elBottom = document.querySelector(".cardBottom")
-      elBottom.innerHTML = deck1[clickCounter].english;
+      elBottom.innerHTML = deckX[clickCounter].english;
       clickCounter++
 
   })
@@ -77,11 +90,11 @@ var clickNext = document.querySelector(".nextButton")
       clickCounter--
 
         var elTop = document.querySelector(".flashCard")
-        elTop.innerHTML = deck1[clickCounter].hangul;
+        elTop.innerHTML = deckX[clickCounter].hangul;
         var elBottom = document.querySelector(".cardBottom")
-        elBottom.innerHTML = deck1[clickCounter].english;
+        elBottom.innerHTML = deckX[clickCounter].english;
         if (clickCounter < 1){
-          clickCounter = deck1.length;
+          clickCounter = deckX.length;
         };
 
     })
