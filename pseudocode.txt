@@ -12,6 +12,9 @@ Create an collection of cards containing matching Hangul and phonetic answers
 
 deck1[ㄴ,n] ㅎㄹㄹ호ㅗㅗㅗ이치치  니스래헤델   ㅓㅜ허ㅏㄹㅇㅎㄹㅇ노ㅓㅓ뎌터츠  ㄹ오차느,
 
+
+
+
 Card as an object:
 card1 = {
   hangul: "구",

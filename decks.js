@@ -18,6 +18,8 @@ deckAdd("마", "ma");
 deckAdd("미", "mi");
 deckAdd("매", "may");
 deckAdd("해", "hay");
+deckAdd("자", "jah");
+deckAdd("차", "cha");
 console.log(deck1.length);
 
 // Medium deck2
