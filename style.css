@@ -9,9 +9,6 @@ body {
   /*color: #dde*/
 }
 
-/*.flash_card {
-  font-size: 8em;
-}*/
 
 
 nav ul li {
@@ -26,9 +23,6 @@ ul {
   padding-left: 0px;
 }
 
-/*header {
-  text-align: center;
-}*/
 
 .chooseDeck1, .chooseDeck2, .chooseDeck3 {
   background-color: #c2eded;
