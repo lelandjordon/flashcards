@@ -5,29 +5,30 @@ body {
   background-color: #e5cffa;
 }
 
-#card {
-
-}
 #words {
-  text-align: center;
   /*color: #dde*/
-};
-
-.flash_card {
-  font-size: 8em;
 }
+
+/*.flash_card {
+  font-size: 8em;
+}*/
+
 
 nav ul li {
+  list-style: none;
   display: inline-block;
-  padding: 10px 10px;
+  padding: 1em 1em;
   background-color: #c2eded;
-  text-align: center;
   cursor: pointer;
 }
 
-header {
-  align-content: center;
+ul {
+  padding-left: 0px;
 }
+
+/*header {
+  text-align: center;
+}*/
 
 .chooseDeck1, .chooseDeck2, .chooseDeck3 {
   background-color: #c2eded;
@@ -52,18 +53,17 @@ header {
   cursor: pointer;
   background-color: #bcbbbb
 }
+
 h2 {
   font-size: 2em;
 }
 
 .nextButton, .backButton {
-  text-align: center;
   width: 100px;
 }
 
 .nextButton {
   background-color: #d8edc2;
-  /*float: right;*/
 }
 
 .backButton {
